@@ -1,5 +1,6 @@
 Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
+#write python script to merge two dictionary
 >>> def Merge(dict1,dict2):
 	return(dict2.update(dict1))
 
@@ -9,12 +10,14 @@ Type "help", "copyright", "credits" or "license()" for more information.
 None
 >>> print(dict2)
 {'x': 30, 'y': 40, 'a': 10, 'b': 20}
+# Write python program to remove key from dictionary
 >>> if 'a' in dict2:
 	 del dict2['a']
 
 	 
 >>> print(dict2)
 {'x': 30, 'y': 40, 'b': 20}
+#Writr a python program to map two list into dictionary
 >>> dict1=["pooja","Rutuja"]
 >>> dict2=[22,45]
 >>> result={}
@@ -27,9 +30,11 @@ None
 	
 >>> print(result)
 {'pooja': 22, 'Rutuja': 45}
+#Write a python program to find length of set
 >>> My_set={"Chennai","Maharashtra","Bihar"}
 >>> print(len(My_set))
 3
+#Write a python program to remove the intersection of 2nd set from the 1st set 
 >>> set1={1,2,3,4,5}
 >>> set2={4,5,6,7,8}
 >>> set1.diffrence_update(set2)
