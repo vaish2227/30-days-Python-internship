@@ -1,0 +1,8 @@
+f=open(r"30hr.txt","w+")
+f.write("I have completed 11 days successfully-")
+f.close()
+f1=open(r"30hr.txt","a+")
+f1.writelines("Vaish J")
+f1=open(r"30hr.txt","r")
+print(f1.read())
+f1.close()
